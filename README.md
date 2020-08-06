@@ -10,9 +10,9 @@ Este programa é um exemplo de criação de transação BSV com golang.
 ## Configuração .env
 Criar/Editar o arquivo .env:
 ```bash
-RPC_HOST="hostname do bitcoind:porta"
-RPC_USERNAME="username para acesso ao bitcoind"
-RPC_PASSWORD="password para acesso ao bitcoind"
+RPC_HOST="hostname do rpc bitcoin:porta"
+RPC_USERNAME="username para acesso ao rpc bitcoin"
+RPC_PASSWORD="password para acesso ao rpc bitcoin"
 TX_ID="txid da transacao a ser pesquisada com gettx"
 ```
 
